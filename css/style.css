@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Teko');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+hr {
+    clear: both;
+}
+
+.imageFrame {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    border-color: green;
+    border-style: solid;
+    border-width: 20px;
+}
+
+.textInput {
+    align-items: left;
+}
+
+.name {
+    font-family: 'Press Start 2P', serif;
+    color: green;
+}
+
+.top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('../images/cryingObsidian.jpg');
+}
+
+.headings {
+    font-family: 'Teko', serif;
+    color: green;
+}
+
+.heading1 {
+    padding-top: 300px;
+    font-family: 'Teko', serif;
+    color: green;
+}
+
+a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.leftCol {
+    float: left;
+    width: 60%
+}
+
+.languages {
+    width: 40%;
+    float: right;
+    text-align: left;
+}
+
+.experience {
+    width: 40%;
+    float: right;
+    text-align: left;
+}
+
+.skills {
+    width: 40%;
+    float: right;
+    text-align: left;
+}
+
+.contact {
+    clear: both;
+    display: inline-block;
+    background-color: gray;
+	padding: 2px 10px 2px 10px;
+	border-top: 2px outset green;
+	border-right: 4px outset green;
+	border-bottom: 2px outset green;
+	border-left: 4px outset green;
+    margin: 0 auto;
+    box-shadow: 5px 5px;
+}
+
+.bottom {
+    font-family: 'Teko', serif;
+    color: green;
+}
